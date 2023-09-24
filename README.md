@@ -10,7 +10,14 @@ python stripper <directory>
 ```
 The script will go over all PDDL files in the directory and convert them. <br>
 The script supports the following requirements:
-``` :strips ```
-``` :typing ```
-``` :negative-preconditions ```
-``` :equality ```
+- ```
+:strips
+```
+- ```
+:typing
+- ```
+:negative-preconditions
+```
+- ```
+:equality
+```
