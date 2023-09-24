@@ -16,7 +16,7 @@ The script supports the following requirements:
 :negative-preconditions
 :equality
 ```
-<br>
+
 ### uncerainator-main
 This directory contains the script used to convert deterministic domains to tochastic domains.<br>
 The script operates on domain and problem files, and it injects predicates into the domains and problems. These predicates are added in the effects of actions in the domain, and in the initial/goal conditions of the problem. This creates the randomness of the problems. <br>
