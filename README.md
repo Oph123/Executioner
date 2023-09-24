@@ -11,20 +11,21 @@ python stripper <directory>
 The script will go over all PDDL files in the directory and convert them. <br>
 The script supports the following requirements:
 ```
-  :strips
+:strips
 ```
 
 ```
-  :typing
+:typing
 ```
 
 ```
-  :negative-preconditions
+:negative-preconditions
 ```
 
 ```
-  :equality
+:equality
 ```
+
 <br><br>
 ### uncerainator-main
 This directory contains the script used to convert deterministic domains to tochastic domains.<br>
