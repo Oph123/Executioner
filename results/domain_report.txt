@@ -1,0 +1,180 @@
+zenotravel-probabilistic
+-----------------------  -----------
+Time mean                 187.905
+Time median                61.2526
+Time standard deviation   527.118
+Time max                 6488.3
+Time min                    0.045243
+-----------------------  -----------
+
+grippers-probabilistic
+-----------------------  ------------
+Time mean                 222.078
+Time median                61.253
+Time standard deviation   679.538
+Time max                 7438.85
+Time min                    0.0529552
+-----------------------  ------------
+
+ferry-probabilistic
+-----------------------  -------------
+Time mean                  273.44
+Time median                 61.0691
+Time standard deviation   1150.54
+Time max                 13371.5
+Time min                     0.0464058
+-----------------------  -------------
+
+mystery-probabilistic
+-----------------------  ------------
+Time mean                 106
+Time median                61.3065
+Time standard deviation   246.08
+Time max                 3074.28
+Time min                    0.0482643
+-----------------------  ------------
+
+tpp-probabilistic
+-----------------------  ------------
+Time mean                  90.9925
+Time median                61.4306
+Time standard deviation   185.136
+Time max                 4047.44
+Time min                    0.0550094
+-----------------------  ------------
+
+logistics-probabilistic
+-----------------------  ------------
+Time mean                 153.497
+Time median                61.4076
+Time standard deviation   510.102
+Time max                 6982.22
+Time min                    0.0577998
+-----------------------  ------------
+
+driverlog-probabilistic
+-----------------------  ------------
+Time mean                 130.146
+Time median                61.4431
+Time standard deviation   323.856
+Time max                 3968.26
+Time min                    0.0569022
+-----------------------  ------------
+
+satellite-probabilistic
+-----------------------  ------------
+Time mean                 217.172
+Time median                61.256
+Time standard deviation   663.496
+Time max                 9103.8
+Time min                    0.0484095
+-----------------------  ------------
+
+goldminer-probabilistic
+-----------------------  -------------
+Time mean                  205.433
+Time median                 36.9214
+Time standard deviation   1907.37
+Time max                 44569.1
+Time min                     0.0513551
+-----------------------  -------------
+
+blocksworld-probabilistic
+-----------------------  ------------
+Time mean                  29.1057
+Time median                 0.180834
+Time standard deviation   181.106
+Time max                 2532.8
+Time min                    0.0460739
+-----------------------  ------------
+
+rovers-probabilistic
+-----------------------  ------------
+Time mean                  52.0227
+Time median                 6.79611
+Time standard deviation   142.803
+Time max                 1766.43
+Time min                    0.0511832
+-----------------------  ------------
+
+npuzzle-probabilistic
+-----------------------  ------------
+Time mean                 203.015
+Time median                61.4815
+Time standard deviation   671.569
+Time max                 9223.71
+Time min                    0.0503097
+-----------------------  ------------
+
+depots-probabilistic
+-----------------------  ------------
+Time mean                 128.018
+Time median                61.1857
+Time standard deviation   392.867
+Time max                 5270.15
+Time min                    0.0444014
+-----------------------  ------------
+
+freecell-probabilistic
+-----------------------  ------------
+Time mean                  35.402
+Time median                 6.86947
+Time standard deviation   117.215
+Time max                 1451.29
+Time min                    0.0691946
+-----------------------  ------------
+
+tsp-probabilistic
+-----------------------  ------------
+Time mean                  19.2534
+Time median                 0.106498
+Time standard deviation   192.05
+Time max                 2562.13
+Time min                    0.0424066
+-----------------------  ------------
+
+grid-probabilistic
+-----------------------  ------------
+Time mean                 103.603
+Time median                61.3246
+Time standard deviation   218.118
+Time max                 3279.83
+Time min                    0.0427699
+-----------------------  ------------
+
+storage-probabilistic
+-----------------------  -------------
+Time mean                  112.456
+Time median                 22.7893
+Time standard deviation    558.368
+Time max                 10021.8
+Time min                     0.0524087
+-----------------------  -------------
+
+hanoi-probabilistic
+-----------------------  -------------
+Time mean                  327.845
+Time median                 61.4475
+Time standard deviation   1348.59
+Time max                 16507.1
+Time min                     0.0633688
+-----------------------  -------------
+
+visitall-probabilistic
+-----------------------  -----------
+Time mean                  73.27
+Time median                21.9476
+Time standard deviation   312.96
+Time max                 4589.38
+Time min                    0.051569
+-----------------------  -----------
+
+miconic-probabilistic
+-----------------------  -----------
+Time mean                  86.1895
+Time median                13.8893
+Time standard deviation   357.92
+Time max                 4623.31
+Time min                    0.050262
+-----------------------  -----------
+

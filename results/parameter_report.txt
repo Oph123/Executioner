@@ -1,0 +1,191 @@
+
+
+PARAMETER OBJECT
+Name: Total number of succesful instance attempts
+Function: <function total_solved at 0x000001BECB4F3430>
+------------  ---
+Ostkaka       512
+Black_Forest    0
+Brownie       681
+Crystal       760
+Flan          359
+Mango         130
+Carrot        161
+Suncake       370
+Gingerbread    20
+Blackout      292
+Cornbread     408
+Spit          392
+Pancake       102
+------------  ---
+
+PARAMETER OBJECT
+Name: Total number of instance attempts
+Function: <function number_total at 0x000001BECB4F34C0>
+------------  ----
+Ostkaka       1050
+Black_Forest  1050
+Brownie       1101
+Crystal       1050
+Flan          1050
+Mango         1052
+Carrot        1050
+Suncake       1114
+Gingerbread   1050
+Blackout       922
+Cornbread     1050
+Spit          1030
+Pancake       1050
+------------  ----
+
+PARAMETER OBJECT
+Name: Percentage of succesful attempts (out of 1)
+Function: <function solved_percentage at 0x000001BECB4F3550>
+------------  ---------
+Ostkaka       0.487619
+Black_Forest  0
+Brownie       0.618529
+Crystal       0.72381
+Flan          0.341905
+Mango         0.123574
+Carrot        0.153333
+Suncake       0.332136
+Gingerbread   0.0190476
+Blackout      0.316703
+Cornbread     0.388571
+Spit          0.380583
+Pancake       0.0971429
+------------  ---------
+
+PARAMETER OBJECT
+Name: Total spent time
+Function: <function total_time at 0x000001BECB4F35E0>
+------------  -------
+Ostkaka       42890.4
+Black_Forest  74873.3
+Brownie       34563.9
+Crystal       26493.7
+Flan          46142.9
+Mango         83763
+Carrot        56696.2
+Suncake       75522
+Gingerbread   46639.2
+Blackout      59876.4
+Cornbread     62761.9
+Spit          64905.2
+Pancake       84648.5
+------------  -------
+
+PARAMETER OBJECT
+Name: Total spent learning time
+Function: <function total_learning_time at 0x000001BECB4F3670>
+------------  ----------
+Ostkaka        6439.89
+Black_Forest  23172.3
+Brownie        4477.33
+Crystal        3467.6
+Flan           1246.61
+Mango         28602.8
+Carrot           10.1038
+Suncake       28220.2
+Gingerbread   44117.7
+Blackout      20478.5
+Cornbread     19725.4
+Spit          28302.1
+Pancake       27829.8
+------------  ----------
+
+PARAMETER OBJECT
+Name: Average time spent on an attempt
+Function: <function average_seconds_per_instance at 0x000001BECB4F3700>
+------------  -------
+Ostkaka       40.848
+Black_Forest  71.3079
+Brownie       31.3932
+Crystal       25.2321
+Flan          43.9456
+Mango         79.6226
+Carrot        53.9964
+Suncake       67.7935
+Gingerbread   44.4182
+Blackout      64.9419
+Cornbread     59.7732
+Spit          63.0148
+Pancake       80.6176
+------------  -------
+
+PARAMETER OBJECT
+Name: Average learning time spent on an attempt
+Function: <function average_learning_seconds_per_instance at 0x000001BECB4F3790>
+------------  -----------
+Ostkaka        6.13322
+Black_Forest  22.0688
+Brownie        4.0666
+Crystal        3.30248
+Flan           1.18725
+Mango         27.189
+Carrot         0.00962267
+Suncake       25.3323
+Gingerbread   42.0168
+Blackout      22.211
+Cornbread     18.7861
+Spit          27.4778
+Pancake       26.5045
+------------  -----------
+
+PARAMETER OBJECT
+Name: Average of the ratios between number of problems solved succesfuly and total time spent on the problem
+Function: <function average_solved_instances_per_total_seconds at 0x000001BECB4F3820>
+------------  ---------
+Ostkaka       0.61914
+Black_Forest  0
+Brownie       0.576003
+Crystal       1.30046
+Flan          1.00863
+Mango         0.315933
+Carrot        0.197421
+Suncake       0.0568638
+Gingerbread   0.037664
+Blackout      0.130845
+Cornbread     1.35745
+Spit          0.23069
+Pancake       0.0102612
+------------  ---------
+
+PARAMETER OBJECT
+Name: Average of the ratios between number of problems solved succesfuly and total learning time spent on the problem
+Function: <function average_solved_instances_per_learning_seconds at 0x000001BECB4F38B0>
+------------  ----------
+Ostkaka        6.47444
+Black_Forest   0
+Brownie       21.3812
+Crystal       63.2835
+Flan          25.1499
+Mango          0.0497373
+Carrot        20.3888
+Suncake        0.0870607
+Gingerbread    0.0462462
+Blackout       2.02684
+Cornbread     11.8606
+Spit           0.0235705
+Pancake        0.0402174
+------------  ----------
+
+PARAMETER OBJECT
+Name: Average of the percentages of succesful instances in every problem (out of 1)
+Function: <function average_solved_per_instance at 0x000001BECB4F3940>
+------------  ---------
+Ostkaka       0.487619
+Black_Forest  0
+Brownie       0.830488
+Crystal       0.76
+Flan          0.359
+Mango         0.122642
+Carrot        0.161
+Suncake       0.355769
+Gingerbread   0.0196078
+Blackout      0.379221
+Cornbread     0.408
+Spit          0.369811
+Pancake       0.10099
+------------  ---------

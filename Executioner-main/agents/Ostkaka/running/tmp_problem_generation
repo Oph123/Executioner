@@ -1,0 +1,30 @@
+
+    (define (problem strips-gripper2)
+    (:domain  gripper-strips)
+    (:objects
+        
+	ball1
+	ball2
+	right
+	roomb
+	rooma
+	left)
+(:init
+	(at-robby rooma)
+	(ball ball2)
+	(ball ball1)
+	(room rooma)
+	(room roomb)
+	(gripper left)
+	(gripper right)
+	(injected-0 )
+	(free left)
+	(free right)
+	(at ball2 rooma)
+	(at ball1 rooma)
+            )
+    (:goal
+        (and (and (at ball1 roomb)) (and (injected-0 ) (injected-1 )))
+        )
+    )
+    

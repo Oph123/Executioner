@@ -1,0 +1,20 @@
+(lp0
+I2
+a(dp1
+(S'blocksworld-4ops'
+p2
+S'instance'
+p3
+S"on('b3', 'b2')on('b4', 'b6')on('b5', 'b3')on('b6', 'b7')on('b7', 'b5')injected-0()"
+p4
+tp5
+I0
+s(S'blocksworld-4ops'
+p6
+S'instance'
+p7
+S"on('b1', 'b3')on('b2', 'b5')on('b3', 'b2')on('b5', 'b4')injected-0()"
+p8
+tp9
+I1
+sa.

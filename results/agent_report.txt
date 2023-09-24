@@ -1,0 +1,248 @@
+
+
+AGENT OBJECT
+Agent name: Ostkaka
+MB: False
+------------------------------------------------------------------------------------------------------  -------------
+Wall times mean                                                                                            37.1346
+Wall times median                                                                                          55.8839
+Wall times standard deviation                                                                              35.6982
+Wall times minimum                                                                                          0.0955048
+Wall times maximum                                                                                        300.746
+Total number of succesful instance attempts                                                              1024
+Total number of instance attempts                                                                        2100
+Percentage of succesful attempts (out of 1)                                                                 0.487619
+Total spent time                                                                                        85780.8
+Total spent learning time                                                                               12879.8
+Average time spent on an attempt                                                                           40.848
+Average learning time spent on an attempt                                                                   6.13322
+Average of the ratios between number of problems solved succesfuly and total time spent on the problem      0.61914
+------------------------------------------------------------------------------------------------------  -------------
+
+AGENT OBJECT
+Agent name: Black_Forest
+MB: True
+------------------------------------------------------------------------------------------------------  -------------
+Wall times mean                                                                                             64.8253
+Wall times median                                                                                           61.1305
+Wall times standard deviation                                                                               65.3101
+Wall times minimum                                                                                           0.177959
+Wall times maximum                                                                                         302.201
+Total number of succesful instance attempts                                                                  0
+Total number of instance attempts                                                                         2100
+Percentage of succesful attempts (out of 1)                                                                  0
+Total spent time                                                                                        149747
+Total spent learning time                                                                                46344.6
+Average time spent on an attempt                                                                            71.3079
+Average learning time spent on an attempt                                                                   22.0688
+Average of the ratios between number of problems solved succesfuly and total time spent on the problem       0
+------------------------------------------------------------------------------------------------------  -------------
+
+AGENT OBJECT
+Agent name: Brownie
+MB: True
+------------------------------------------------------------------------------------------------------  -------------
+Wall times mean                                                                                            30.9028
+Wall times median                                                                                          11.1018
+Wall times standard deviation                                                                              41.7567
+Wall times minimum                                                                                          0.0550468
+Wall times maximum                                                                                        302.193
+Total number of succesful instance attempts                                                              1224
+Total number of instance attempts                                                                        2060
+Percentage of succesful attempts (out of 1)                                                                 0.594175
+Total spent time                                                                                        70025.8
+Total spent learning time                                                                                9791.57
+Average time spent on an attempt                                                                           33.9931
+Average learning time spent on an attempt                                                                   4.75319
+Average of the ratios between number of problems solved succesfuly and total time spent on the problem      0.941864
+------------------------------------------------------------------------------------------------------  -------------
+
+AGENT OBJECT
+Agent name: Crystal
+MB: True
+------------------------------------------------------------------------------------------------------  -------------
+Wall times mean                                                                                            22.9382
+Wall times median                                                                                           3.60024
+Wall times standard deviation                                                                              37.4654
+Wall times minimum                                                                                          0.0464058
+Wall times maximum                                                                                        301.822
+Total number of succesful instance attempts                                                              1520
+Total number of instance attempts                                                                        2100
+Percentage of succesful attempts (out of 1)                                                                 0.72381
+Total spent time                                                                                        52987.3
+Total spent learning time                                                                                6935.2
+Average time spent on an attempt                                                                           25.2321
+Average learning time spent on an attempt                                                                   3.30248
+Average of the ratios between number of problems solved succesfuly and total time spent on the problem      1.30046
+------------------------------------------------------------------------------------------------------  -------------
+
+AGENT OBJECT
+Agent name: Flan
+MB: False
+------------------------------------------------------------------------------------------------------  -------------
+Wall times mean                                                                                            39.9506
+Wall times median                                                                                          61.3542
+Wall times standard deviation                                                                              30.834
+Wall times minimum                                                                                          0.0477924
+Wall times maximum                                                                                        301.486
+Total number of succesful instance attempts                                                               718
+Total number of instance attempts                                                                        2100
+Percentage of succesful attempts (out of 1)                                                                 0.341905
+Total spent time                                                                                        92285.8
+Total spent learning time                                                                                2493.22
+Average time spent on an attempt                                                                           43.9456
+Average learning time spent on an attempt                                                                   1.18725
+Average of the ratios between number of problems solved succesfuly and total time spent on the problem      1.00863
+------------------------------------------------------------------------------------------------------  -------------
+
+AGENT OBJECT
+Agent name: Carrot
+MB: True
+------------------------------------------------------------------------------------------------------  ---------------
+Wall times mean                                                                                             49.0876
+Wall times median                                                                                           61.5024
+Wall times standard deviation                                                                               23.6422
+Wall times minimum                                                                                           0.0494666
+Wall times maximum                                                                                          63.1081
+Total number of succesful instance attempts                                                                322
+Total number of instance attempts                                                                         2100
+Percentage of succesful attempts (out of 1)                                                                  0.153333
+Total spent time                                                                                        113392
+Total spent learning time                                                                                   20.2076
+Average time spent on an attempt                                                                            53.9964
+Average learning time spent on an attempt                                                                    0.00962267
+Average of the ratios between number of problems solved succesfuly and total time spent on the problem       0.197421
+------------------------------------------------------------------------------------------------------  ---------------
+
+AGENT OBJECT
+Agent name: Suncake
+MB: False
+------------------------------------------------------------------------------------------------------  --------------
+Wall times mean                                                                                             66.6964
+Wall times median                                                                                           61.2817
+Wall times standard deviation                                                                               75.2332
+Wall times minimum                                                                                           0.0511169
+Wall times maximum                                                                                         302.263
+Total number of succesful instance attempts                                                                626
+Total number of instance attempts                                                                         2100
+Percentage of succesful attempts (out of 1)                                                                  0.298095
+Total spent time                                                                                        154069
+Total spent learning time                                                                                59647.1
+Average time spent on an attempt                                                                            73.366
+Average learning time spent on an attempt                                                                   28.4034
+Average of the ratios between number of problems solved succesfuly and total time spent on the problem       0.0459404
+------------------------------------------------------------------------------------------------------  --------------
+
+AGENT OBJECT
+Agent name: Gingerbread
+MB: True
+------------------------------------------------------------------------------------------------------  -------------
+Wall times mean                                                                                            40.3802
+Wall times median                                                                                           0.0794287
+Wall times standard deviation                                                                             132.457
+Wall times minimum                                                                                          0.0466893
+Wall times maximum                                                                                        778.704
+Total number of succesful instance attempts                                                                40
+Total number of instance attempts                                                                        2100
+Percentage of succesful attempts (out of 1)                                                                 0.0190476
+Total spent time                                                                                        93278.3
+Total spent learning time                                                                               88235.3
+Average time spent on an attempt                                                                           44.4182
+Average learning time spent on an attempt                                                                  42.0168
+Average of the ratios between number of problems solved succesfuly and total time spent on the problem      0.037664
+------------------------------------------------------------------------------------------------------  -------------
+
+AGENT OBJECT
+Agent name: Blackout
+MB: True
+------------------------------------------------------------------------------------------------------  --------------
+Wall times mean                                                                                             51.4618
+Wall times median                                                                                           61.436
+Wall times standard deviation                                                                               67.3079
+Wall times minimum                                                                                           0.0424471
+Wall times maximum                                                                                         313.616
+Total number of succesful instance attempts                                                                836
+Total number of instance attempts                                                                         2100
+Percentage of succesful attempts (out of 1)                                                                  0.398095
+Total spent time                                                                                        118877
+Total spent learning time                                                                                39699.7
+Average time spent on an attempt                                                                            56.608
+Average learning time spent on an attempt                                                                   18.9046
+Average of the ratios between number of problems solved succesfuly and total time spent on the problem       1.54986
+------------------------------------------------------------------------------------------------------  --------------
+
+AGENT OBJECT
+Agent name: Cornbread
+MB: False
+------------------------------------------------------------------------------------------------------  --------------
+Wall times mean                                                                                             54.3393
+Wall times median                                                                                           61.4639
+Wall times standard deviation                                                                               65.0709
+Wall times minimum                                                                                           0.0486579
+Wall times maximum                                                                                         303.535
+Total number of succesful instance attempts                                                                816
+Total number of instance attempts                                                                         2100
+Percentage of succesful attempts (out of 1)                                                                  0.388571
+Total spent time                                                                                        125524
+Total spent learning time                                                                                39450.7
+Average time spent on an attempt                                                                            59.7732
+Average learning time spent on an attempt                                                                   18.7861
+Average of the ratios between number of problems solved succesfuly and total time spent on the problem       1.35745
+------------------------------------------------------------------------------------------------------  --------------
+
+AGENT OBJECT
+Agent name: Spit
+MB: False
+------------------------------------------------------------------------------------------------------  --------------
+Wall times mean                                                                                             56.7014
+Wall times median                                                                                           60.6732
+Wall times standard deviation                                                                               77.8753
+Wall times minimum                                                                                           0.0852227
+Wall times maximum                                                                                         301.273
+Total number of succesful instance attempts                                                                826
+Total number of instance attempts                                                                         2100
+Percentage of succesful attempts (out of 1)                                                                  0.393333
+Total spent time                                                                                        130980
+Total spent learning time                                                                                57212.5
+Average time spent on an attempt                                                                            62.3715
+Average learning time spent on an attempt                                                                   27.2441
+Average of the ratios between number of problems solved succesfuly and total time spent on the problem       0.01461
+------------------------------------------------------------------------------------------------------  --------------
+
+AGENT OBJECT
+Agent name: Pancake
+MB: False
+------------------------------------------------------------------------------------------------------  --------------
+Wall times mean                                                                                             73.2888
+Wall times median                                                                                           61.2972
+Wall times standard deviation                                                                               68.8566
+Wall times minimum                                                                                           0.0424066
+Wall times maximum                                                                                         301.752
+Total number of succesful instance attempts                                                                204
+Total number of instance attempts                                                                         2100
+Percentage of succesful attempts (out of 1)                                                                  0.0971429
+Total spent time                                                                                        169297
+Total spent learning time                                                                                55659.5
+Average time spent on an attempt                                                                            80.6176
+Average learning time spent on an attempt                                                                   26.5045
+Average of the ratios between number of problems solved succesfuly and total time spent on the problem       0.0102612
+------------------------------------------------------------------------------------------------------  --------------
+
+AGENT OBJECT
+Agent name: Mango_BQL
+MB: False
+------------------------------------------------------------------------------------------------------  -------------
+Wall times mean                                                                                             72.4705
+Wall times median                                                                                           60.8565
+Wall times standard deviation                                                                               71.6718
+Wall times minimum                                                                                           0.102844
+Wall times maximum                                                                                         318.333
+Total number of succesful instance attempts                                                                254
+Total number of instance attempts                                                                         2100
+Percentage of succesful attempts (out of 1)                                                                  0.120952
+Total spent time                                                                                        167407
+Total spent learning time                                                                                57197.1
+Average time spent on an attempt                                                                            79.7176
+Average learning time spent on an attempt                                                                   27.2367
+Average of the ratios between number of problems solved succesfuly and total time spent on the problem       0.15756
+------------------------------------------------------------------------------------------------------  -------------
