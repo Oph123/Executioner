@@ -11,15 +11,19 @@ python stripper <directory>
 The script will go over all PDDL files in the directory and convert them. <br>
 The script supports the following requirements:
 ```
-:strips
+  :strips
 ```
+<br>
 ```
-:typing
+  :typing
 ```
-:negative-preconditions
+<br>
 ```
+  :negative-preconditions
 ```
-:equality
+<br>
+```
+  :equality
 ```
 <br><br>
 ### uncerainator-main
