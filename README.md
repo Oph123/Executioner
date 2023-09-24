@@ -8,10 +8,9 @@ To use the stripper, run the python script with the directory of pddl files:
 ```
 python stripper <directory>
 ```
-<br>
 The script will go over all PDDL files in the directory and convert them. <br>
 The script supports the following requirements:
-```:strips```
-```:typing```
-```:negative-preconditions```
-```:equality```
+``` :strips ```
+``` :typing ```
+``` :negative-preconditions ```
+``` :equality ```
