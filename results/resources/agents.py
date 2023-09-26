@@ -5,19 +5,19 @@ except:
 
 agent_names = {
     "Ostkaka": 'mf',
-    "Black_Forest": 'mb',
+    #"Black_Forest": 'mb',
     "Brownie": 'mb',
     "Crystal": 'mb',
     "Flan": 'mf',
     "Carrot": 'mb',
     "Suncake": 'mf',
-    "Gingerbread": 'mb',
+    #"Gingerbread": 'mb',
     "Blackout": 'mb',
     "Cornbread": 'mf',
     "Spit": 'mf',
-    "Pancake": 'mf',
+    #"Pancake": 'mf',
     #'Lemon': 'mb',
-    'Mango_BQL': 'mf'
+    #'Mango_BQL': 'mf'
 }
 
 AGENTS = [Agent(key, get_agent_database(key, True), value == 'mb') for key, value in agent_names.items()]

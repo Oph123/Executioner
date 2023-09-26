@@ -7,6 +7,12 @@ try:
     from agent_parameters import PARAMETERS
 except:
     from resources.agent_parameters import PARAMETERS
+try:
+    from resources.Domain import DOMAINS, Domain
+except:
+    from Domain import DOMAINS, Domain
+from domain_paramaters import DOMAIN_PARAMS
+
 import matplotlib.pyplot as plt
 import matplotlib.colors as clr
 import matplotlib.gridspec as gspc
@@ -30,14 +36,15 @@ def plot_model_based_histogram():
      agent.database.loc[:, 'wall-time'].quantile(0.95) >= x] for agent in mb] # filter out percentile <= 0.05
     ).T
     data_mb.columns = [agent.name for agent in mb]
-    mbfig, mbax = plt.subplots(figsize=(12, 10))
-    mbfig.add_gridspec(1, 1, 
-                       bottom=0.3)
-    mbax.hist(data_mb, histtype='bar', bins=10, color=colors[:len(mb)], label=[a.name for a in mb])
+    mbfig = plt.figure(figsize=(12, 7))
+    gs = mbfig.add_gridspec(1, 1, right=0.85, bottom=0.1)
+    mbax = mbfig.add_subplot(gs[0, 0])
+    plt.hist(data_mb, stacked=False, color=colors[:len(mb)], label=[a.name for a in mb])
     mbax.set_xlabel('זמן קיר בשניות'[::-1])
     mbax.set_title('פילוג אמפירי של זמני הפתרון בסוכנים מבוססי המודלים'[::-1])
-    mbax.legend(bbox_to_anchor=(1.02, 1))
-    plt.show()
+    plt.legend(bbox_to_anchor=(1.02, 1))
+    file = open('resources\graphs\model_based_histogram.png', 'wb+')
+    plt.savefig(file)
 
 
 def plot_model_free_histogram():
@@ -48,12 +55,15 @@ def plot_model_free_histogram():
         agent.database.loc[:, 'wall-time'].quantile(0.95) >= x] for agent in mf] # filer out percentile <= 0.05
     ).T
     data_mf.columns = [agent.name for agent in mf]
-    mffig, mfax = plt.subplots(figsize=(12, 10))
-    mfax.hist(data_mf, histtype='bar', bins=10, color=colors[:len(mf)], label=[a.name for a in mf])
-    mfax.set_xlabel('זמן הקיר בשניות'[::-1])
-    mfax.set_title('פילוג אמפירי של זמני הפתרון בסוכנים שאינם מבוססי מודלים'[::-1])
-    mfax.legend(bbox_to_anchor=(1.02, 1))
-    plt.show()
+    mffig = plt.figure(figsize=(12, 7))
+    gs = mffig.add_gridspec(1, 1, right=0.85, bottom=0.1)
+    mbax = mffig.add_subplot(gs[0, 0])
+    plt.hist(data_mf, stacked=False, color=colors[:len(mf)], label=[a.name for a in mf])
+    mbax.set_xlabel('זמן קיר בשניות'[::-1])
+    mbax.set_title('פילוג אמפירי של זמני הפתרון בסוכנים מבוססי המודלים'[::-1])
+    plt.legend(bbox_to_anchor=(1.02, 1))
+    file = open('resources\graphs\model_free_histogram.png', 'wb+')
+    plt.savefig(file)
 
 def plot_bars_per_agents():
     for agent in AGENTS:
@@ -77,10 +87,28 @@ def plot_bars_per_parameters(): # saves results in graphs\plots_per_parameter
         plt.title(param.name)
         file = open('resources\graphs\plots_per_parameter\\' + param.name + '.png', 'wb+')
         plt.savefig(file)
-        
+
+
+def plot_domain_bars_per_parameters():
+    for param in DOMAIN_PARAMS:
+        fig = plt.figure(figsize=(12, 7))
+        data = pd.DataFrame({key: [value] for key, value in param.get_parameter_report(DOMAINS).items()}).T
+        data.index = [d.name.split('-')[0] for d in DOMAINS]
+        gs = fig.add_gridspec(1, 1, bottom=0.15, top=0.9)
+        ax = fig.add_subplot(gs[0, 0])
+        data.plot.bar(ax=ax)
+        ax.get_legend().remove()
+        plt.title(param.name)
+        file = open('resources\graphs\domains\\' + param.name.split('-')[0] + '.png', 'wb+')
+        plt.savefig(file)
+
 
 def main():
     plot_bars_per_parameters()
+    plot_domain_bars_per_parameters()
+    plot_model_based_histogram()
+    plot_model_free_histogram()
+
 
 if __name__ == '__main__':
     main()

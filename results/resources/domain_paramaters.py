@@ -1,6 +1,11 @@
-from resources.DomainParameter import DomainParameter
-
-from resources.Domain import Domain, get_domain_database
+try:
+    from resources.DomainParameter import DomainParameter
+except:
+    from DomainParameter import DomainParameter
+try:
+    from resources.Domain import Domain, get_domain_database
+except:
+    from Domain import Domain, get_domain_database
 import pandas as pd 
 def time_mean(domain: Domain): # returns an average of wall times
     return domain.database.loc[:, 'wall-time'].mean()
