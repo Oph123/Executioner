@@ -8,7 +8,7 @@ except:
 DOMAINS_TO_IGNORE = ['tpp-probabilistic', 'tsp-probabilistic', 'freecell-probabilistic']
 
 def get_agent_database(name, get_learning): # if get_learning i set to false then lines with learning=True will not be included 
-    database = pd.read_csv('master.csv').drop(columns=['stderr', 'perception-requests', 'actions', 'terminated'])
+    database = pd.read_csv('results\master.csv').drop(columns=['stderr', 'perception-requests', 'actions', 'terminated'])
     #valid_items = (database['agent'] == name) & ((database['learning'] == False) | (database['learning'] == get_learning))
     database = database.loc[database['agent'] == name]
     database = database.loc[database['learning'].map(lambda x: x == False or x == get_learning)]
