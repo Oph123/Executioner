@@ -35,7 +35,7 @@ def plot_model_based_histogram():
      agent.database.loc[:, 'wall-time'].quantile(0.95) >= x] for agent in mb] # filter out percentile <= 0.05
     ).T
     data_mb.columns = [agent.name for agent in mb]
-    mbfig = plt.figure(figsize=(12, 5))
+    mbfig = plt.figure(figsize=(12, 7))
     gs = mbfig.add_gridspec(1, 1, right=0.85, bottom=0.15)
     mbax = mbfig.add_subplot(gs[0, 0])
     plt.ylim(0, 1550)
@@ -55,7 +55,7 @@ def plot_model_free_histogram():
         agent.database.loc[:, 'wall-time'].quantile(0.95) >= x] for agent in mf] # filer out percentile <= 0.05
     ).T
     data_mf.columns = [agent.name for agent in mf]
-    mffig = plt.figure(figsize=(12, 5))
+    mffig = plt.figure(figsize=(12, 7))
     gs = mffig.add_gridspec(1, 1, right=0.85, bottom=0.15)
     mbax = mffig.add_subplot(gs[0, 0])
     plt.ylim(0, 1550)
