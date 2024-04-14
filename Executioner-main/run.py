@@ -50,7 +50,7 @@ def random_color() -> str:
     return f"#{red:02X}{green:02X}{blue:02X}"
 
 
-def clear_temps():
+def clear_temps(): # clear all temporary files created by agents
     for directory in glob.glob(os.path.join(ROOT, LOG_FOLDER, "*")):
         shutil.rmtree(directory)
 
@@ -58,7 +58,7 @@ def clear_temps():
         shutil.rmtree(directory)
 
 
-def construct_log(
+def construct_log( # create a dictionary with all data from report card
     agent_name: str,
     domain_name: str,
     problem_name: str,
@@ -101,7 +101,7 @@ def construct_log(
             pass
 
     if learning:
-        base["success"] = None
+        base["success"] = None # succcess isn't counted in learning runs
 
     return base
 
@@ -127,7 +127,7 @@ def print_with_id(value):
         print("|".rjust(len(info_text), " "), line)
 
 
-def run_once(
+def run_once( # will be used to run all agents in parallel
     agent_path: str,
     domain_path: str,
     problem_path: str,
@@ -138,6 +138,7 @@ def run_once(
 ):
     timeout = LEARNING_TIMEOUT if learning else EXECUTION_TIMEOUT
 
+    # run the agent using timeout script 
     wrapper = f"../../timeout -t {timeout} -m {KILOBYTE_LIMIT} -c --no-info-on-success"
     command = f"{wrapper} {PYTHON_COMMAND} {agent_path} {'-L' if learning else '-E'} {domain_path} {problem_path}"
 
@@ -232,10 +233,10 @@ def run_task(agent_name: str, domain_name: str, problem_name: str, execution: No
         raise e
 
 
-def full_run(agents: list[str]):
+def full_run(agents: list[str]): # accepts a list of agents
     clear_temps()
 
-    domains = {
+    domains = { # get dictionary with domains and corresponding problems
         domain.split("/")[-2]: [
             os.path.basename(problem).split(".")[0]
             for problem in glob.glob(os.path.join(domain, "*.pddl"))

@@ -3,7 +3,7 @@ import os
 import random
 from typing import Any, Callable, Optional
 
-import click
+import click # module for creating command block interfaces
 import sexpdata
 
 # Constants

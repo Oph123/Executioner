@@ -20,8 +20,12 @@ The script supports the following requirements:
 ### uncerainator-main
 This directory contains the script used to convert deterministic domains to tochastic domains.<br>
 The script operates on domain and problem files, and it injects predicates into the domains and problems. These predicates are added in the effects of actions in the domain, and in the initial/goal conditions of the problem. This creates the randomness of the problems. <br>
-The uncertainator is used as follows:
+The uncertainator is used in the command line as follows:
 ```
 python uncertainator group [--suffix TEXT] DIRECTORY INJECTION_COUNT
 ```
-Where 
+This will find all pddl domains and problems in the given directory and inject the requested amount of predicates.
+
+### Executioner-main
+This is the main testing script. It is responsible for running all agents with all domains and problems in their respective folders, and exporting the results to CSV format. <br>
+In order to run the script properly, the agents must be placed in the `agents` directory, and the domains and problems must br organized in subfolders of the `domains` directory. The script will iterate over all domains in the `domains` folder and all agents in the `agents` folder, running every agent with every domain. 
